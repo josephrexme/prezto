@@ -165,8 +165,8 @@ function pmodload {
 ZPREZTODIR=${0:h}
 
 # Source the Prezto configuration file.
-if [[ -s "${ZDOTDIR:-$HOME}/.zpreztorc" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zpreztorc"
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zpreztorc" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/zpreztorc"
 fi
 
 # Disable color and theme in dumb terminals.
